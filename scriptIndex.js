@@ -10,11 +10,11 @@ colorH1[0].addEventListener("click", function (e) {
 });
 
 colorH2[0].addEventListener("click", function (e) {
-  coloredBtn.style.background = "linear-gradient(to bottom right, #339933, #c6ecc6)"; 
+  coloredBtn.style.background = "linear-gradient(to bottom right, #730099, #f2ccff)"; 
 });
 
 colorP[0].addEventListener("click", function (e) {
-  coloredBtn.style.background = "linear-gradient(to bottom right, #336699, #b3cce6)"; 
+  coloredBtn.style.background = "linear-gradient(to bottom right, #6b00b3, #e0b3ff)"; 
 });
 
 colorP[1].addEventListener("click", function (e) {
