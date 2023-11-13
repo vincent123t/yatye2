@@ -30,7 +30,7 @@
 }
 
 html { 
-  background: url(assets/images/sceau_yoru_5.png) no-repeat center center fixed; 
+  background: url(assets/images/sceau_yoru_8b.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -59,6 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  row-gap: 40px;
   /*align-items: stretch;*/
 }
 
@@ -92,7 +93,7 @@ footer {
 .contact-link {
   margin-top: 10px;
   margin-bottom: 30px;
-  
+  /*padding-top: 40px;*/
 }
 
 .contact-link a {
@@ -319,6 +320,15 @@ button[type="submit"]:hover {
 -------------------*/
 
 @media only screen and (min-width: 1200px) {
+
+  html {
+    background: url(assets/images/sceau_yoru_8b.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   #form-container {
     width: 800px;
   }
